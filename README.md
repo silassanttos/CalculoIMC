@@ -1,2 +1,2 @@
 # CalculoIMC
- Calculo UMC com JavaScript
+ Programa realizado com JavaScript
