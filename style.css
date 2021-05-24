@@ -1,0 +1,20 @@
+
+label {
+			width:100px;
+			float:left;
+}
+input { text-align:right;}
+
+body {
+			background:url( http://pocosdecaldas.mg.gov.br/wp-content/uploads/2020/06/Academias.jpeg);
+			background-size:cover;
+			color:navy;
+}
+#areaConteudo{
+			background-color:rgba(255,255,255,.60);
+			border:2px solid beige;
+			width:400px;
+			margin:0px auto;
+			padding:10px;
+			border-radius:10%;
+}

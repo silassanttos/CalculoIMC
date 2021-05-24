@@ -3,64 +3,8 @@
 	<head>
 		<title>IMC</title>
 		<meta charset="utf-8">
-		<style>
-			label {
-				width:100px;
-				float:left;
-			}
-			input { text-align:right;}
-			body {
-				background:url( http://pocosdecaldas.mg.gov.br/wp-content/uploads/2020/06/Academias.jpeg);
-				background-size:cover;
-				color:navy;
-			}
-			#areaConteudo{
-				background-color:rgba(255,255,255,.60);
-				border:2px solid beige;
-				width:400px;
-				margin:0px auto;
-				padding:10px;
-				border-radius:10%;
-			}
-		</style>
-		<script>
-			function Calcular()
-			{
-				// IMC = p / (a*a)
-				var peso	= document.getElementById("peso").value
-				var altura  = document.getElementById("altura").value
-				var IMCCalculado = peso / (altura * altura)
-				//alert(IMCCalculado)
-				
-				var oIMC = document.getElementById("IMC")
-				oIMC.value = IMCCalculado.toFixed(2)
-				
-				var oSituacao = document.getElementById("situacao")
-				
-				if(IMCCalculado < 18.5)  {oSituacao.innerHTML = "Magreza"}
-				
-				if( (IMCCalculado>18.5) && (IMCCalculado<25) )
-				{
-					oSituacao.innerHTML="Normal"
-				}
-
-				if ( (IMCCalculado>=25) && (IMCCalculado<30) )
-				{
-					oSituacao.innerHTML="Sobrepeso"
-				}
-
-				if ( (IMCCalculado>=30) && (IMCCalculado<40) )
-				{
-					oSituacao.innerHTML="Obesidade"
-				}
-				
-				if (IMCCalculado>=40)
-				{
-					oSituacao.innerHTML="Obesidade Grave"
-				}
-
-			}
-		</script>
+        <script src="CalculoIMC.js"></script>
+        <link rel="stylesheet" href="style.css">nk
 	</head>
 	
 	<body>
