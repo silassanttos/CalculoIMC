@@ -1,2 +1,2 @@
 # CalculoIMC
- Programa realizado com JavaScript
+Realizado com: HTML, CSS e JavaScript
